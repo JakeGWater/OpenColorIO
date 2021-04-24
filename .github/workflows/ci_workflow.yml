@@ -44,7 +44,7 @@ jobs:
     runs-on: windows-2019
     strategy:
       matrix:
-        build: [1, 2, 3, 4, 5, 6]
+        build: [2]
         include:
           # C++17
           - build: 6
