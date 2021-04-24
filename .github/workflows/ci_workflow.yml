@@ -8,22 +8,6 @@ name: CI
 
 on:
   push:
-    # Versioned branches and tags are ignored for OCIO <= 1.x.x
-    branches-ignore:
-      - RB-0.*
-      - RB-1.*
-      - gh-pages
-    tags-ignore:
-      - v0.*
-      - v1.*
-  pull_request:
-    branches-ignore:
-      - RB-0.*
-      - RB-1.*
-      - gh-pages
-    tags-ignore:
-      - v0.*
-      - v1.*
 
 jobs:
   # ---------------------------------------------------------------------------
